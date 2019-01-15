@@ -1,0 +1,13 @@
+<launch>
+  <include file="$(find motoman_gazebo)/launch/motomini/motomini_mathworks.launch"/>
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find motoman_description)/launch/motomini/rviz/motomini_with_kinectv2.rviz" required="true" />
+
+  <!--
+  <include file="$(find timed_roslaunch)/launch/timed_roslaunch.launch">
+    <arg name="time" value="5" />
+    <arg name="pkg" value="motoman_moveit_bringup" />
+    <arg name="file" value="motomini_with_gripper_moveit_planning_execution.launch" />
+  </include>
+  -->
+</launch>
