@@ -19,3 +19,8 @@ example
 ```bash
 $ roslaunch motoman_moveit_apps sia5_with_dhand_moveit_gazebo_autorun.launch
 ```
+
+### Mathworks Demo
+```bash
+$ roslaunch motoman_mathworks_apps motomini_picking_demo_gazebo_autorun.launch
+```
