@@ -15,9 +15,14 @@ $ sh install.sh
 
 ## Applications
 ### Moveit
-example
+#### SIA5
 ```bash
 $ roslaunch motoman_moveit_apps sia5_with_dhand_moveit_gazebo_autorun.launch
+```
+
+#### MotoMINI
+```bash
+$ roslaunch motoman_moveit_apps motomini_with_gripper_moveit_gazebo_autorun.launch
 ```
 
 ### Mathworks Demo
