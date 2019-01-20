@@ -25,7 +25,7 @@ $ roslaunch motoman_moveit_apps motomini_with_gripper_moveit_gazebo_autorun.laun
 ```bash
 $ roslaunch motoman_moveit_apps sia5_with_dhand_moveit_gazebo_autorun.launch
 ```
-![sia5_dhand_gazebo_moveit](.images/sia5_dahand_gazebo_moveit.png)
+![sia5_dhand_gazebo_moveit](.images/sia5_dhand_gazebo_moveit.png)
 
 ### MotoMINI Mathworks Demo
 ```bash
