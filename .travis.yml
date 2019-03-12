@@ -14,8 +14,9 @@ notifications:
   slack: nishida-lab:Sczvu4bdpbngcXGeiZAEdHGx
 env:		
   global:		
-    - CATKIN_PARALLEL_TEST_JOBS=-p1		
-    - ROS_PARALLEL_TEST_JOBS=-j`nproc`		
+    - CATKIN_PARALLEL_JOBS=-p1
+    - CATKIN_PARALLEL_TEST_JOBS=-p1
+    - ROS_PARALLEL_TEST_JOBS=-j1
     - UPSTREAM_WORKSPACE=file
     - ROSINSTALL_FILENAME=.kinetic_depends.rosinstall
   matrix:		
