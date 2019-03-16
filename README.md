@@ -24,6 +24,11 @@ $ roslaunch motoman_moveit_apps motomini_with_gripper_moveit_gazebo_autorun.laun
 $ roslaunch motoman_mathworks_apps motomini_picking_demo_gazebo_autorun.launch world:=motomini_with_table_coke
 ```
 
+##### With parts
+```bash
+$ roslaunch motoman_mathworks_apps motomini_picking_demo_gazebo_autorun.launch world:=motomini_with_table_parts
+```
+
 ##### With gazebo grasp fix plugin
 ```bash
 $ roslaunch motoman_mathworks_apps motomini_picking_demo_gazebo_autorun.launch load_grasp_fix:=true
