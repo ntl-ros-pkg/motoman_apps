@@ -1,0 +1,9 @@
+<launch>
+  <include file="$(find motoman_gazebo)/launch/hc10dt/hc10dt_empty_world.launch"/>
+
+  <include file="$(find timed_roslaunch)/launch/timed_roslaunch.launch">
+    <arg name="time" value="5" />
+    <arg name="pkg" value="motoman_moveit_bringup" />
+    <arg name="file" value="hc10dt_moveit_planning_execution.launch" />
+  </include>
+</launch>
