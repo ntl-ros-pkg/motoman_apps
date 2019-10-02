@@ -4,8 +4,10 @@
   <version>0.1.0</version>
   <description>The application package for motoman_apps</description>
 
-  <maintainer email="p595201m@mail.kyutech.jp">Masaru Morita</maintainer>
+  <maintainer email="groadpg@gmail.com">Ryodo Tanaka</maintainer>
   <license>BSD</license>
+
+  <author>Ryodo Tanaka</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>motoman_mathworks_apps</exec_depend>
