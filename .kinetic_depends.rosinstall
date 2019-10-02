@@ -25,4 +25,4 @@
 - git:
     local-name: motoman_deps/gazebo-pkgs
     uri: https://github.com/JenniferBuehler/gazebo-pkgs
-    version: add-inst
+    version: master
